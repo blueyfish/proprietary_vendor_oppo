@@ -13,6 +13,25 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/oppo/A57/proprietary/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b00 \
+    vendor/oppo/A57/proprietary/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b01 \
+    vendor/oppo/A57/proprietary/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b02 \
+    vendor/oppo/A57/proprietary/vendor/firmware/alipay.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b03 \
+    vendor/oppo/A57/proprietary/vendor/firmware/alipay.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b04 \
+    vendor/oppo/A57/proprietary/vendor/firmware/alipay.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b05 \
+    vendor/oppo/A57/proprietary/vendor/firmware/alipay.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b06 \
+    vendor/oppo/A57/proprietary/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.mdt \
+    vendor/oppo/A57/proprietary/vendor/firmware/b_fp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b00 \
+    vendor/oppo/A57/proprietary/vendor/firmware/b_fp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b01 \
+    vendor/oppo/A57/proprietary/vendor/firmware/b_fp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b02 \
+    vendor/oppo/A57/proprietary/vendor/firmware/b_fp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b03 \
+    vendor/oppo/A57/proprietary/vendor/firmware/b_fp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b04 \
+    vendor/oppo/A57/proprietary/vendor/firmware/b_fp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b05 \
+    vendor/oppo/A57/proprietary/vendor/firmware/b_fp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.b06 \
+    vendor/oppo/A57/proprietary/vendor/firmware/b_fp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/b_fp.mdt \
+    vendor/oppo/A57/proprietary/vendor/lib64/hw/fingerprint.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8937.so \
+    vendor/oppo/A57/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
+    vendor/oppo/A57/proprietary/vendor/lib64/libalipay_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalipay_factory.so \
     vendor/oppo/A57/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/oppo/A57/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/oppo/A57/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
