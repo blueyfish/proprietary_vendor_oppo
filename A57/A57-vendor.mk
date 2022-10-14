@@ -867,7 +867,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants-V2.1-java \
     vendor.qti.data.factory-V1.0-java \
     vendor.qti.data.factory-V2.0-java \
-    vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.data.cne.internal.api-V1.0-java \
     vendor.qti.hardware.data.cne.internal.constants-V1.0-java \
     vendor.qti.hardware.data.connection-V1.0-java \
@@ -890,5 +889,6 @@ PRODUCT_PACKAGES += \
     qti-telephony-common \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
+    vendor.qti.hardware.alarm-V1.0-java \
     manifest_android.hardware.drm@1.2-service.widevine \
     vendor.qti.gnss@3.0-service
