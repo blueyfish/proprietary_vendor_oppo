@@ -47,6 +47,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/oppo/A57/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/oppo/A57/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/qdcm_calib_data_oppo16061boe_hx8394f_720p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16061boe_hx8394f_720p_video_mode_dsi_panel.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/qdcm_calib_data_oppo16061boe_nt35521s_720p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16061boe_nt35521s_720p_video_mode_dsi_panel.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/qdcm_calib_data_oppo16061boe_nt35521s_b8_720p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16061boe_nt35521s_b8_720p_video_mode_dsi_panel.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/qdcm_calib_data_oppo16061tianma_hx8394f_720p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16061tianma_hx8394f_720p_video_mode_dsi_panel.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/qdcm_calib_data_oppo16061truly_nt35521s_720p_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_oppo16061truly_nt35521s_720p_video_mode_dsi_panel.xml \
     vendor/oppo/A57/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/oppo/A57/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/oppo/A57/proprietary/framework/audiosphere.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/audiosphere.jar \
