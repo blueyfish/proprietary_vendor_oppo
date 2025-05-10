@@ -140,9 +140,11 @@ special_mode_mask values:
       <ISPPreview>imx258_preview_special</ISPPreview>
       <ISPSnapshot>imx258_preview_special</ISPSnapshot>
       <CPPPreview>imx258_cpp_preview_special</CPPPreview>
+      <CPPVideo>imx258_cpp_preview_special</CPPVideo>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="2" special_mode_mask="OPPO_WECHAT">
       <CPPPreview>imx258_cpp_preview_wchat</CPPPreview>
+      <CPPVideo>imx258_cpp_preview_wchat</CPPVideo>     
     </ChromatixName>
     <ChromatixName sensor_resolution_index="2" special_mode_mask="OPPO_GIF">
       <CPPSnapshot>imx258_cpp_snapshot_special</CPPSnapshot>

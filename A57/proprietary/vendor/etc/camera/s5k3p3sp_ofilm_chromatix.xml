@@ -112,6 +112,7 @@ special_mode_mask values:
       <ISPPreview>s5k3p3sp_preview_special</ISPPreview>
       <ISPSnapshot>s5k3p3sp_preview_special</ISPSnapshot>
       <CPPPreview>s5k3p3sp_cpp_preview_special</CPPPreview>
+      <CPPVideo>s5k3p3sp_cpp_preview_special</CPPVideo>
       <A3Preview>s5k3p3sp_a3_zsl_preview_special_ofilm</A3Preview>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="0" special_mode_mask="FLASH">
