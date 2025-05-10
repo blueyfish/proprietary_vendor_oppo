@@ -244,6 +244,18 @@ android_app_import {
 }
 
 dex_import {
+	name: "QPerformance",
+	owner: "oppo",
+	jars: ["proprietary/system/framework/QPerformance.jar"],
+}
+
+dex_import {
+	name: "UxPerformance",
+	owner: "oppo",
+	jars: ["proprietary/system/framework/UxPerformance.jar"],
+}
+
+dex_import {
 	name: "audiosphere",
 	owner: "oppo",
 	jars: ["proprietary/system/framework/audiosphere.jar"],
