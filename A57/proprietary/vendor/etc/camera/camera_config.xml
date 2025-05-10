@@ -117,6 +117,33 @@ LensInfo : Information of the lens present in the module.
   
   <CameraModuleConfig>
     <CameraId>0</CameraId>
+    <SensorName>ov13855_f13v08b</SensorName>
+    <ModuleInfoPath>/proc/rear_eeprom_info</ModuleInfoPath>
+    <ActuatorName>dw9718s_ov13855</ActuatorName>
+    <EepromName>ov13855_gt24c64</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName>ov13855_f13v08b_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>0</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.46</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.97</TotalFocusDistance>
+      <HorizontalViewAngle>68.2</HorizontalViewAngle>
+      <VerticalViewAngle>49.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+
+  <CameraModuleConfig>
+    <CameraId>0</CameraId>
     <SensorName>s5k3l8</SensorName>
     <ModuleInfoPath>/proc/rear_eeprom_info</ModuleInfoPath>
     <ActuatorName>dw9718s_s5k3l8</ActuatorName>
@@ -149,6 +176,7 @@ LensInfo : Information of the lens present in the module.
     <EepromName>m24c64s</EepromName>
     <ChromatixName>s5k3p3sp_chromatix</ChromatixName>
     <OfilmChromatixName>s5k3p3sp_ofilm_chromatix</OfilmChromatixName>
+    <SunnyChromatixName>s5k3p3sp_sunny_chromatix</SunnyChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
@@ -168,4 +196,30 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
   
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>s5k3p8sp</SensorName>
+    <ModuleInfoPath>/proc/front_eeprom_info</ModuleInfoPath>
+    <EepromName>m24c64s</EepromName>
+    <ChromatixName>s5k3p8sp_chromatix</ChromatixName>
+    <SunnyChromatixName>s5k3p8sp_sunny_chromatix</SunnyChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.57</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.2</TotalFocusDistance>
+      <HorizontalViewAngle>63.2</HorizontalViewAngle>
+      <VerticalViewAngle>51.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+
 </CameraConfigurationRoot>
