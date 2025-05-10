@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oppo/A57
 
 PRODUCT_COPY_FILES += \
-    vendor/oppo/A57/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -14,15 +13,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_truly_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_truly_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_ofilm_chromatix.xml \
-    vendor/oppo/A57/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
-    vendor/oppo/A57/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
-    vendor/oppo/A57/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
     vendor/oppo/A57/proprietary/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b00 \
     vendor/oppo/A57/proprietary/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b01 \
     vendor/oppo/A57/proprietary/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b02 \
@@ -266,17 +256,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/firmware/a506_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a506_zap.mdt \
     vendor/oppo/A57/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/oppo/A57/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/oppo/A57/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/oppo/A57/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/oppo/A57/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
@@ -310,8 +289,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/oppo/A57/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/oppo/A57/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libactuator_dw9718s_16061.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s_16061.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libactuator_dw9718s_s5k3l8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s_s5k3l8.so \
     vendor/oppo/A57/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/oppo/A57/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
     vendor/oppo/A57/proprietary/vendor/lib/libadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec.so \
@@ -327,137 +304,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/oppo/A57/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/oppo/A57/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_4k_preview_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_preview_bu64244gwz.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_4k_preview_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_preview_truly.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_4k_video_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_video_bu64244gwz.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_4k_video_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_video_truly.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_common.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_common_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_common_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_common_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_common_video.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_custom.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_face.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_hfr_120.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_hfr_60.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_hfr_90.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_liveshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_preview_wchat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview_wchat.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_4k.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_preview_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_preview_bu64244gwz.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_preview_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_preview_truly.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video_bu64244gwz.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video_cmcc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video_truly.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video_truly_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video_truly_cmcc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_120.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_120_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_120_bu64244gwz.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_60.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_60_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_60_bu64244gwz.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_90.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_90_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_90_bu64244gwz.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_postproc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_preview.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_preview_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_snapshot_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_cmcc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_hdr.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_4k.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_16_9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_16_9.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_cmcc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly_16_9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly_16_9.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly_cmcc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_video_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_video_bu64244gwz.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_common.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_hfr_120.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_hfr_60.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_hfr_90.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_liveshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_preview.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_preview_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_preview_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview_wchat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_preview_wchat.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_snapshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_snapshot_custom.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot_panoram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_snapshot_panoram.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_snapshot_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_video.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_default_preview_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_default_preview_ak7345.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_default_video.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_default_video_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_default_video_ak7345.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_default_video_webcat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_default_video_webcat.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_120.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_120_ak7345.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_60.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_60_ak7345.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_90.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_90_ak7345.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_postproc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_preview.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_snapshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_snapshot_hdr.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_snapshot_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_snapshot_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_zsl_preview_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_zsl_video_ak7345.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_default_preview_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_default_preview_q3p3maa.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_default_video_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_default_video_q3p3maa.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_hfr_120_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_hfr_120_q3p3maa.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_hfr_60_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_hfr_60_q3p3maa.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_hfr_90_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_hfr_90_q3p3maa.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama_ofilm.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb_ofilm.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_ofilm.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special_ofilm.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa_ofilm.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_common.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_flash_snapshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_hfr_120.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_hfr_60.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_hfr_90.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_liveshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_preview.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_preview_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_preview_fb.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_preview_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_snapshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_snapshot_fb.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_snapshot_gif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_snapshot_gif.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_snapshot_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_video.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_default_video.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_default_video_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_default_video_cmcc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_default_video_cmcc_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_default_video_cmcc_ofilm.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_hfr_120.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_hfr_60.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_hfr_90.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_liveshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_postproc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_preview.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_preview_special.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_snapshot.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_snapshot_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_snapshot_cmcc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_snapshot_fb.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc_ofilm.so \
     vendor/oppo/A57/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/oppo/A57/proprietary/vendor/lib/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdisp-aba.so \
     vendor/oppo/A57/proprietary/vendor/lib/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpmqmihal.so \
@@ -466,8 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/oppo/A57/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/oppo/A57/proprietary/vendor/lib/libfastrpc_utf_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastrpc_utf_stub.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libflash_lm3642.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_lm3642.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/oppo/A57/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
     vendor/oppo/A57/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/oppo/A57/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
@@ -475,9 +319,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/oppo/A57/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
     vendor/oppo/A57/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
     vendor/oppo/A57/proprietary/vendor/lib/liblistenjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistenjni.so \
     vendor/oppo/A57/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
     vendor/oppo/A57/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
@@ -487,85 +328,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/lib/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket.so \
     vendor/oppo/A57/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
     vendor/oppo/A57/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_imx258_gt24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_gt24c64_eeprom.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_be_stats44.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bg_stats44.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bpc40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_correct40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_encoder40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_viewfinder40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_cs_stats44.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demosaic40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_demux40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demux40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_encoder40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_gamma40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ihist_stats44.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_linearization40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ltm44.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_luma_adaptation40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_mce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mce40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mesh_rolloff40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_rs_stats44.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_encoder44.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_viewfinder44.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_template.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_template.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64s_eeprom.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_s5k3l8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_s5k3l8_gt24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_gt24c64_eeprom.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_s5k3p3sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3sp.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/oppo/A57/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
     vendor/oppo/A57/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/oppo/A57/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/oppo/A57/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
@@ -580,15 +343,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/oppo/A57/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
     vendor/oppo/A57/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/oppo/A57/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/oppo/A57/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
     vendor/oppo/A57/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/oppo/A57/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
     vendor/oppo/A57/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
     vendor/oppo/A57/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
     vendor/oppo/A57/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/oppo/A57/proprietary/vendor/lib/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscalar.so \
@@ -596,7 +355,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
     vendor/oppo/A57/proprietary/vendor/lib/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmextension.so \
     vendor/oppo/A57/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/oppo/A57/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/oppo/A57/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/oppo/A57/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
@@ -909,8 +667,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     libtime_genoff \
-    libts_detected_face_hal \
-    libts_face_beautify_hal \
     libloc_api_v02 \
     CneApp \
     IWlanService \
@@ -927,3 +683,376 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-service-qti \
     manifest_android.hardware.drm@1.2-service.widevine \
     vendor.qti.gnss@3.0-service
+PRODUCT_COPY_FILES += \
+    vendor/oppo/A57/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_truly_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_truly_chromatix.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/ov13855_f13v08b_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13855_f13v08b_chromatix.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_chromatix.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_ofilm_chromatix.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_sunny_chromatix.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
+    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p8sp_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_sunny_chromatix.xml \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/oppo/A57/proprietary/vendor/lib/libactuator_dw9718s_16061.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s_16061.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libactuator_dw9718s_ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s_ov13855.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libactuator_dw9718s_s5k3l8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s_s5k3l8.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_4k_preview_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_preview_bu64244gwz.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_4k_preview_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_preview_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_4k_video_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_video_bu64244gwz.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_4k_video_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_4k_video_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_common.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_common_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_common_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_common_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_common_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_custom.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_face.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_liveshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_preview_wchat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_preview_wchat.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_snapshot_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_cpp_video_4k.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_preview_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_preview_bu64244gwz.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_preview_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_preview_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video_bu64244gwz.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_default_video_truly_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_default_video_truly_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_120_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_120_bu64244gwz.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_60_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_60_bu64244gwz.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_hfr_90_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_hfr_90_bu64244gwz.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_postproc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_preview_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_snapshot_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_hdr.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_snapshot_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_video_4k.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_16_9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_16_9.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly_16_9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly_16_9.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_truly_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_preview_truly_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_imx258_zsl_video_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_zsl_video_bu64244gwz.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_common.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_liveshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_preview_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_preview_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_preview_wchat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_preview_wchat.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_snapshot_custom.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_snapshot_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_snapshot_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_cpp_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_default_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_default_preview_bu64297.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_default_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_default_video_bu64297.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_default_video_webchat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_default_video_webchat.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_120_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_hfr_120_bu64297.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_60_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_hfr_60_bu64297.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_hfr_90_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_hfr_90_bu64297.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_liveshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_postproc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_snapshot_hdr.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_snapshot_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_snapshot_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_zsl_preview_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_zsl_preview_bu64297.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_zsl_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_zsl_preview_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_ov13855_f13v08b_zsl_video_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13855_f13v08b_zsl_video_bu64297.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_common.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_liveshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_preview_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_preview_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_preview_wchat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_preview_wchat.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_snapshot_custom.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot_panoram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_snapshot_panoram.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_snapshot_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_cpp_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_default_preview_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_default_preview_ak7345.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_default_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_default_video_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_default_video_ak7345.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_default_video_webcat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_default_video_webcat.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_120_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_120_ak7345.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_60_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_60_ak7345.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_hfr_90_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_hfr_90_ak7345.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_postproc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_snapshot_hdr.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_snapshot_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_snapshot_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_zsl_preview_ak7345.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_zsl_preview_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3l8_zsl_video_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_zsl_video_ak7345.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_default_preview_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_default_preview_q3p3maa.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_default_video_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_default_video_q3p3maa.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_hfr_120_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_hfr_120_q3p3maa.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_hfr_60_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_hfr_60_q3p3maa.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_hfr_90_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_hfr_90_q3p3maa.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama_ofilm.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_panorama_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb_ofilm.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_fb_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_ofilm.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_q3p3maa_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special_ofilm.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_preview_special_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa_ofilm.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_zsl_video_q3p3maa_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_common.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_flash_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_liveshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_preview_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_preview_fb.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_preview_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_snapshot_fb.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_snapshot_gif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_snapshot_gif.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_snapshot_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_snapshot_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_cpp_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_default_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_default_video_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_default_video_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_default_video_cmcc_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_default_video_cmcc_ofilm.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_default_video_cmcc_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_default_video_cmcc_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_liveshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_postproc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_preview_special.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_preview_special.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_snapshot_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_snapshot_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_snapshot_fb.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc_ofilm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc_ofilm.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_zsl_preview_cmcc_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_default_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview_wchat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_default_preview_wchat.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview_wchat_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_default_preview_wchat_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview_wchat_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_default_preview_wchat_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_default_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_fb.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_fb_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_fb_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_fb_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_fb_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_panorama.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_panorama_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_panorama_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_preview_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview_cmcc_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_preview_cmcc_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_preview_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_preview_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_video_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_video_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_video_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_video_truly.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_common.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_common_otherapk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_common_otherapk.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_custom.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_custom_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_custom_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_fb_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_fb_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_fb_preview_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_fb_preview_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_fb_remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_fb_remosaic.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_fb_snapshot_4m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_fb_snapshot_4m.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_fb_snapshot_4m_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_fb_snapshot_4m_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_flash.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_flash_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_flash_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_liveshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_preview_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_preview_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_preview_otherapk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_preview_otherapk.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_preview_otherapk_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_preview_otherapk_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_preview_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_preview_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_preview_wchat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_preview_wchat.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot_4m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_snapshot_4m.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot_4m_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_snapshot_4m_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_snapshot_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot_gif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_snapshot_gif.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot_otherapk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_snapshot_otherapk.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot_otherapk_remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_snapshot_otherapk_remosaic.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_default_video.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_hfr_120.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_hfr_60.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_hfr_90.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_liveshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_postproc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_preview.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_cmcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_cmcc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_fb.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_fb_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_fb_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_otherapk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_otherapk.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_otherapk_remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_otherapk_remosaic.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_sunny.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_wchat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_wchat.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvface_api.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libllvd_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_sw_tnr.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_dcrf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_dcrf.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_iface_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_iface_modules.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_imglib_modules.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_is.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_isp_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_isp_modules.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_mct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_mct.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pp_buf_mgr.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_pproc_modules.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_q3a_core.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_sensor_modules.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dcrf_lib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_imx258.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_imx258_gt24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_gt24c64_eeprom.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_be_stats44.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bg_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bg_stats44.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bhist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bhist_stats44.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_bpc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bpc40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_enhan40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_chroma_suppress40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_chroma_suppress40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_clamp_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_encoder40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_clamp_video40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_video40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_clamp_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_clamp_viewfinder40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_color_correct40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_correct40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_color_xform_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_encoder40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_color_xform_viewfinder40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_cs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_cs_stats44.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_demosaic40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demosaic40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_demux40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_demux40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_encoder40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_gamma40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_gamma40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_ihist_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ihist_stats44.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_linearization40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_linearization40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_ltm44.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_luma_adaptation40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_luma_adaptation40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_mce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mce40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_mesh_rolloff40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_rs_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_rs_stats44.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_scaler_encoder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_encoder44.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_scaler_viewfinder44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_scaler_viewfinder44.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_template.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_template.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_isp_wb40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_wb40.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64s_eeprom.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_ov13855_f13v08b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855_f13v08b.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_ov13855_gt24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855_gt24c64_eeprom.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_s5k3l8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_s5k3l8_gt24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_gt24c64_eeprom.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_s5k3p3sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3sp.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p8sp.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
+    vendor/oppo/A57/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libremosaic_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_tuning.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaiclib.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
+    vendor/oppo/A57/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so
+
+PRODUCT_PACKAGES += \
+    libts_detected_face_hal \
+    libts_face_beautify_hal
