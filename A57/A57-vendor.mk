@@ -646,6 +646,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0-service.xml
 PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
+    vendor/oppo/A57/proprietary/vendor/bin/remosaic_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/remosaic_daemon \
     vendor/oppo/A57/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
     vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_truly_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_truly_chromatix.xml \
@@ -1012,7 +1013,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/lib/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaiclib.so \
     vendor/oppo/A57/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/oppo/A57/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
-    vendor/oppo/A57/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so
+    vendor/oppo/A57/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
+    vendor/oppo/A57/proprietary/vendor/lib64/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_daemon.so \
+    vendor/oppo/A57/proprietary/vendor/lib64/libremosaic_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_tuning.so \
+    vendor/oppo/A57/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
