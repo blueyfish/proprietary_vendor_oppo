@@ -222,12 +222,6 @@ dex_import {
 }
 
 dex_import {
-	name: "audiosphere",
-	owner: "oppo",
-	jars: ["proprietary/system/framework/audiosphere.jar"],
-}
-
-dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "oppo",
 	jars: ["proprietary/system/framework/com.qti.snapdragon.sdk.display.jar"],
@@ -245,6 +239,13 @@ dex_import {
 	owner: "oppo",
 	jars: ["proprietary/product/framework/vendor.qti.latency-V2.0-java.jar"],
 	product_specific: true,
+}
+
+dex_import {
+	name: "audiosphere",
+	owner: "oppo",
+	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
