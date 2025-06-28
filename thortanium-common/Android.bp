@@ -28,46 +28,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgpustats",
-	owner: "oppo",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libgpustats.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libgpustats.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libsdm-disp-vndapis",
-	owner: "oppo",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libsdm-disp-vndapis.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsdm-disp-vndapis.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libthermalclient",
 	owner: "oppo",
 	strip: {
@@ -222,12 +182,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.qti.snapdragon.sdk.display",
-	owner: "oppo",
-	jars: ["proprietary/system/framework/com.qti.snapdragon.sdk.display.jar"],
-}
-
-dex_import {
 	name: "vendor.qti.hardware.data.latency-V1.0-java",
 	owner: "oppo",
 	jars: ["proprietary/product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar"],
@@ -313,5 +267,47 @@ install_symlink {
 	system_ext_specific: true,
 	installed_location: "priv-app/ims/lib/arm64/libimsmedia_jni.so",
 	symlink_target: "/system_ext/lib64/libimsmedia_jni.so",
+}
+
+install_symlink {
+	name: "libEGL_adreno_libEGL_adreno_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libEGL_adreno.so",
+	symlink_target: "/vendor/lib/egl/libEGL_adreno.so",
+}
+
+install_symlink {
+	name: "libGLESv2_adreno_libGLESv2_adreno_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libGLESv2_adreno.so",
+	symlink_target: "/vendor/lib/egl/libGLESv2_adreno.so",
+}
+
+install_symlink {
+	name: "libq3dtools_adreno_libq3dtools_adreno_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libq3dtools_adreno.so",
+	symlink_target: "/vendor/lib/egl/libq3dtools_adreno.so",
+}
+
+install_symlink {
+	name: "libEGL_adreno_libEGL_adreno_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libEGL_adreno.so",
+	symlink_target: "/vendor/lib64/egl/libEGL_adreno.so",
+}
+
+install_symlink {
+	name: "libGLESv2_adreno_libGLESv2_adreno_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libGLESv2_adreno.so",
+	symlink_target: "/vendor/lib64/egl/libGLESv2_adreno.so",
+}
+
+install_symlink {
+	name: "libq3dtools_adreno_libq3dtools_adreno_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libq3dtools_adreno.so",
+	symlink_target: "/vendor/lib64/egl/libq3dtools_adreno.so",
 }
 
