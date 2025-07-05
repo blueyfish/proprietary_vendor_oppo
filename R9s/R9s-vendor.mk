@@ -46,6 +46,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b05 \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b06 \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.mdt \
+    vendor/oppo/R9s/proprietary/vendor/firmware/tfa98xx_16017.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_16017.cnt \
+    vendor/oppo/R9s/proprietary/vendor/firmware/tfa98xx_16027.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_16027.cnt \
     vendor/oppo/R9s/proprietary/vendor/etc/sensor_def/16017/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def/16017/sensor_def_qcomdev.conf \
     vendor/oppo/R9s/proprietary/vendor/etc/sensor_def/16027/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def/16027/sensor_def_qcomdev.conf \
     vendor/oppo/R9s/proprietary/vendor/lib64/hw/fingerprint.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8953.so \
