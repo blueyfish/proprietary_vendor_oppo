@@ -32,14 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9s/proprietary/vendor/etc/camera/s5k3p8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8_chromatix.xml \
     vendor/oppo/R9s/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
     vendor/oppo/R9s/proprietary/vendor/etc/camera/s5k3p8sp_truly_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_truly_chromatix.xml \
-    vendor/oppo/R9s/proprietary/vendor/firmware/a_fp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b00 \
-    vendor/oppo/R9s/proprietary/vendor/firmware/a_fp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b01 \
-    vendor/oppo/R9s/proprietary/vendor/firmware/a_fp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b02 \
-    vendor/oppo/R9s/proprietary/vendor/firmware/a_fp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b03 \
-    vendor/oppo/R9s/proprietary/vendor/firmware/a_fp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b04 \
-    vendor/oppo/R9s/proprietary/vendor/firmware/a_fp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b05 \
-    vendor/oppo/R9s/proprietary/vendor/firmware/a_fp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.b06 \
-    vendor/oppo/R9s/proprietary/vendor/firmware/a_fp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a_fp.mdt \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b00 \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b01 \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b02 \
@@ -48,6 +40,14 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b05 \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b06 \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.mdt \
+    vendor/oppo/R9s/proprietary/vendor/firmware/fingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b00 \
+    vendor/oppo/R9s/proprietary/vendor/firmware/fingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b01 \
+    vendor/oppo/R9s/proprietary/vendor/firmware/fingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b02 \
+    vendor/oppo/R9s/proprietary/vendor/firmware/fingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b03 \
+    vendor/oppo/R9s/proprietary/vendor/firmware/fingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b04 \
+    vendor/oppo/R9s/proprietary/vendor/firmware/fingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b05 \
+    vendor/oppo/R9s/proprietary/vendor/firmware/fingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b06 \
+    vendor/oppo/R9s/proprietary/vendor/firmware/fingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.mdt \
     vendor/oppo/R9s/proprietary/vendor/firmware/tfa98xx_16017.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_16017.cnt \
     vendor/oppo/R9s/proprietary/vendor/firmware/tfa98xx_16027.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_16027.cnt \
     vendor/oppo/R9s/proprietary/vendor/etc/sensor_def/16017/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def/16017/sensor_def_qcomdev.conf \
