@@ -172,7 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/thortanium-common/proprietary/vendor/lib/hw/activity_recognition.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.qcom.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib/hw/com.dsi.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.dsi.ant@1.0-impl.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib/hw/sound_trigger.primary.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.qcom.so \
-    vendor/oppo/thortanium-common/proprietary/vendor/lib/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/vulkan.adreno.so \
+    vendor/oppo/thortanium-common/proprietary/vendor/lib/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.adreno.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib/libApeSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libApeSwDec.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib/libC2D2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libC2D2.so \
@@ -296,7 +296,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/thortanium-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so \
-    vendor/oppo/thortanium-common/proprietary/vendor/lib64/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vulkan.adreno.so \
+    vendor/oppo/thortanium-common/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsSDP.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
     vendor/oppo/thortanium-common/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
