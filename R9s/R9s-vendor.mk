@@ -402,9 +402,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9s/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/oppo/R9s/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/oppo/R9s/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
+    vendor/oppo/R9s/proprietary/vendor/lib64/libQmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQmiservices.so \
     vendor/oppo/R9s/proprietary/vendor/lib64/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_daemon.so \
     vendor/oppo/R9s/proprietary/vendor/lib64/libremosaic_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_tuning.so \
-    vendor/oppo/R9s/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so
+    vendor/oppo/R9s/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
+    vendor/oppo/R9s/proprietary/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
