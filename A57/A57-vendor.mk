@@ -685,16 +685,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@3.0-service
 PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_truly_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_truly_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/ov13855_f13v08b_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13855_f13v08b_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_ofilm_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_sunny_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p8sp_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_sunny_chromatix.xml \
     vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
     vendor/oppo/A57/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
