@@ -22,15 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9s/proprietary/vendor/etc/acdbdata/16027/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16027/MTP_Hdmi_cal.acdb \
     vendor/oppo/R9s/proprietary/vendor/etc/acdbdata/16027/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16027/MTP_Headset_cal.acdb \
     vendor/oppo/R9s/proprietary/vendor/etc/acdbdata/16027/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16027/MTP_Speaker_cal.acdb \
-    vendor/oppo/R9s/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/oppo/R9s/proprietary/vendor/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_chromatix.xml \
-    vendor/oppo/R9s/proprietary/vendor/etc/camera/imx298_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_sunny_chromatix.xml \
-    vendor/oppo/R9s/proprietary/vendor/etc/camera/imx398_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx398_chromatix.xml \
-    vendor/oppo/R9s/proprietary/vendor/etc/camera/imx398_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx398_sunny_chromatix.xml \
-    vendor/oppo/R9s/proprietary/vendor/etc/camera/s5k3p3sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_chromatix.xml \
-    vendor/oppo/R9s/proprietary/vendor/etc/camera/s5k3p8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8_chromatix.xml \
-    vendor/oppo/R9s/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
-    vendor/oppo/R9s/proprietary/vendor/etc/camera/s5k3p8sp_truly_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_truly_chromatix.xml \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b00 \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b01 \
     vendor/oppo/R9s/proprietary/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b02 \

@@ -15,16 +15,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/oppo/A57/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/imx258_truly_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_truly_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/ov13855_f13v08b_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13855_f13v08b_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_ofilm_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p3sp_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sp_sunny_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
-    vendor/oppo/A57/proprietary/vendor/etc/camera/s5k3p8sp_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_sunny_chromatix.xml \
     vendor/oppo/A57/proprietary/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b00 \
     vendor/oppo/A57/proprietary/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b01 \
     vendor/oppo/A57/proprietary/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b02 \
