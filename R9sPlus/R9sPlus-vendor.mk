@@ -32,6 +32,20 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9sPlus/proprietary/vendor/firmware/fingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b06 \
     vendor/oppo/R9sPlus/proprietary/vendor/firmware/fingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.mdt \
     vendor/oppo/R9sPlus/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus-v1.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b00 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus-v1.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b01 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus-v1.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b02 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus-v1.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b03 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus-v1.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b04 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus-v1.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.mbn \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus-v1.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.mdt \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b03 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
+    vendor/oppo/R9sPlus/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
     vendor/oppo/R9sPlus/proprietary/vendor/etc/sensor_def/16037/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def/16037/sensor_def_qcomdev.conf \
     vendor/oppo/R9sPlus/proprietary/vendor/etc/sensor_def/16337/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def/16337/sensor_def_qcomdev.conf \
     vendor/oppo/R9sPlus/proprietary/vendor/etc/sensor_def/16339/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def/16339/sensor_def_qcomdev.conf \
