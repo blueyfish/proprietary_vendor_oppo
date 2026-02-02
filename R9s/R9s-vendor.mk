@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/oppo/R9s/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/oppo/R9s/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
+    vendor/oppo/R9s/proprietary/vendor/bin/rmt_storage_global:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage_global \
     vendor/oppo/R9s/proprietary/vendor/etc/acdbdata/16017/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16017/MTP_Bluetooth_cal.acdb \
     vendor/oppo/R9s/proprietary/vendor/etc/acdbdata/16017/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16017/MTP_General_cal.acdb \
     vendor/oppo/R9s/proprietary/vendor/etc/acdbdata/16017/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/16017/MTP_Global_cal.acdb \
