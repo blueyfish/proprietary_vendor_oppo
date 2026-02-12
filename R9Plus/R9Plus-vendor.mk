@@ -98,53 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx298_zsl_preview_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx298_zsl_preview_sunny.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx298_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx298_zsl_video.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx298_zsl_video_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx298_zsl_video_sunny.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_4K_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_4K_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_4K_preview_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_4K_preview_sunny.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_4K_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_4K_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_4K_video_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_4K_video_sunny.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_common.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_common_non_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_common_non_zsl.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_common_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_common_sunny.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_4k.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_custom.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_face.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_hfr_120.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_hfr_60.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_hfr_90.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_liveshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_preview_panorama.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_snapshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_snapshot_hdr.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_snapshot_panorama.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_cpp_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_cpp_video_hdr.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_default_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_default_preview_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_default_preview_sunny.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_default_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_default_video_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_default_video_sunny.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_hdr_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_hdr_snapshot_3a.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_hdr_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_hdr_video_3a.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_hfr_120.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_hfr_120_3a.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_hfr_60.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_hfr_60_3a.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_hfr_90.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_hfr_90_3a.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_liveshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_postproc.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_snapshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_snapshot_hdr.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_snapshot_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_snapshot_panorama.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_video_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_video_hdr.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_zsl_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_zsl_preview_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_zsl_preview_panorama.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_zsl_preview_panorama_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_zsl_preview_panorama_sunny.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_zsl_preview_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_zsl_preview_sunny.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_zsl_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_imx398_zsl_video_sunny.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx398_zsl_video_sunny.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_default_preview_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_default_preview_q3p3maa.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_default_video_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_default_video_q3p3maa.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p3sp_a3_hfr_120_q3p3maa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_a3_hfr_120_q3p3maa.so \
@@ -178,65 +131,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p3sp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_preview.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p3sp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_snapshot.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p3sp_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3sp_snapshot_fb.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_a3_default_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_a3_default_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_a3_hfr_120.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_a3_hfr_60.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_a3_hfr_90.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_a3_zsl_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_a3_zsl_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_common.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_cpp_hfr_120.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_cpp_hfr_60.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_cpp_hfr_90.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_cpp_liveshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_cpp_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_cpp_snapshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_cpp_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_default_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_hfr_120.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_hfr_60.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_hfr_90.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_liveshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_postproc.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8_snapshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_default_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_default_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_fb.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_fb_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_fb_truly.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_hfr_120.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_hfr_60.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_hfr_90.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_panorama.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_panorama_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_panorama_truly.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_preview_truly.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_video_truly.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_a3_zsl_video_truly.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_common.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_custom.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_fb_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_fb_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_fb_remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_fb_remosaic.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_fb_snapshot_4m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_fb_snapshot_4m.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_flash.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_hfr_120.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_hfr_60.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_hfr_90.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_liveshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_snapshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot_4m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_snapshot_4m.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_cpp_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_default_video.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_hfr_120.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_hfr_60.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_hfr_90.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_liveshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_postproc.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_preview.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_fb.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvface_api.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libflash_lm3643.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_lm3643.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
@@ -271,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx298.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_imx398.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx398.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_be_stats44.so \
@@ -315,11 +208,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_s5k3p3sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3sp.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_s5k3p8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p8.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p8sp.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_semco_cat24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_semco_cat24c64_eeprom.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
-    vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_sunny_cat24c64_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_cat24c64_eeprom.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_sw_tnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw_tnr.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
