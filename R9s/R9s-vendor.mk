@@ -237,7 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9s/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot.so \
     vendor/oppo/R9s/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot_fb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p8sp_snapshot_fb.so \
     vendor/oppo/R9s/proprietary/vendor/lib/libcvface_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvface_api.so \
-    vendor/oppo/R9s/proprietary/vendor/lib/libflash_lm3642.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_lm3642.so \
     vendor/oppo/R9s/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/oppo/R9s/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/oppo/R9s/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
