@@ -8,30 +8,30 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/oppo/R9Plus/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/oppo/R9Plus/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-    vendor/oppo/R9Plus/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
-    vendor/oppo/R9Plus/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
-    vendor/oppo/R9Plus/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
-    vendor/oppo/R9Plus/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
-    vendor/oppo/R9Plus/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
-    vendor/oppo/R9Plus/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
-    vendor/oppo/R9Plus/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b00 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b01 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b02 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/alipay.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b03 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/alipay.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b04 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/alipay.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b05 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/alipay.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b06 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.mdt \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/fingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b00 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/fingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b01 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/fingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b02 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/fingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b03 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/fingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b04 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/fingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b05 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/fingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.b06 \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/fingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/fingerprint.mdt \
-    vendor/oppo/R9Plus/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
+    vendor/oppo/R9Plus/proprietary/odm/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/oppo/R9Plus/proprietary/odm/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/oppo/R9Plus/proprietary/odm/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/oppo/R9Plus/proprietary/odm/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/oppo/R9Plus/proprietary/odm/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/oppo/R9Plus/proprietary/odm/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/oppo/R9Plus/proprietary/odm/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/alipay.b00:$(TARGET_COPY_OUT_ODM)/firmware/alipay.b00 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/alipay.b01:$(TARGET_COPY_OUT_ODM)/firmware/alipay.b01 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/alipay.b02:$(TARGET_COPY_OUT_ODM)/firmware/alipay.b02 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/alipay.b03:$(TARGET_COPY_OUT_ODM)/firmware/alipay.b03 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/alipay.b04:$(TARGET_COPY_OUT_ODM)/firmware/alipay.b04 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/alipay.b05:$(TARGET_COPY_OUT_ODM)/firmware/alipay.b05 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/alipay.b06:$(TARGET_COPY_OUT_ODM)/firmware/alipay.b06 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/alipay.mdt:$(TARGET_COPY_OUT_ODM)/firmware/alipay.mdt \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/fingerprint.b00:$(TARGET_COPY_OUT_ODM)/firmware/fingerprint.b00 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/fingerprint.b01:$(TARGET_COPY_OUT_ODM)/firmware/fingerprint.b01 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/fingerprint.b02:$(TARGET_COPY_OUT_ODM)/firmware/fingerprint.b02 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/fingerprint.b03:$(TARGET_COPY_OUT_ODM)/firmware/fingerprint.b03 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/fingerprint.b04:$(TARGET_COPY_OUT_ODM)/firmware/fingerprint.b04 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/fingerprint.b05:$(TARGET_COPY_OUT_ODM)/firmware/fingerprint.b05 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/fingerprint.b06:$(TARGET_COPY_OUT_ODM)/firmware/fingerprint.b06 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/fingerprint.mdt:$(TARGET_COPY_OUT_ODM)/firmware/fingerprint.mdt \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oppo/R9Plus/proprietary/vendor/firmware/venus-v1.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b00 \
     vendor/oppo/R9Plus/proprietary/vendor/firmware/venus-v1.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b01 \
     vendor/oppo/R9Plus/proprietary/vendor/firmware/venus-v1.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus-v1.b02 \
@@ -46,8 +46,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/R9Plus/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
     vendor/oppo/R9Plus/proprietary/vendor/firmware/venus.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mbn \
     vendor/oppo/R9Plus/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
-    vendor/oppo/R9Plus/proprietary/vendor/etc/sensor_def/15103/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def/15103/sensor_def_qcomdev.conf \
-    vendor/oppo/R9Plus/proprietary/vendor/etc/sensor_def/16303/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_def/16303/sensor_def_qcomdev.conf \
+    vendor/oppo/R9Plus/proprietary/odm/etc/sensor_def/15103/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_ODM)/etc/sensor_def/15103/sensor_def_qcomdev.conf \
+    vendor/oppo/R9Plus/proprietary/odm/etc/sensor_def/16303/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_ODM)/etc/sensor_def/16303/sensor_def_qcomdev.conf \
     vendor/oppo/R9Plus/proprietary/vendor/lib64/hw/fingerprint.msm8952.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8952.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/oppo/R9Plus/proprietary/vendor/lib64/libalipay_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalipay_factory.so \
