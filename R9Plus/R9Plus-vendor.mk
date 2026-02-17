@@ -6,6 +6,22 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oppo/R9Plus
 
 PRODUCT_COPY_FILES += \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b00:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b00 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b01:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b01 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b02:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b02 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b03:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b03 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b04:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b04 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b05:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b05 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b06:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b06 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b07:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b07 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b08:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b08 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b09:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b09 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b10:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b10 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b11:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b11 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b12:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b12 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.b13:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.b13 \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.mbn:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.mbn \
+    vendor/oppo/R9Plus/proprietary/odm/firmware/adsp/adsp.mdt:$(TARGET_COPY_OUT_ODM)/firmware/adsp/adsp.mdt \
     vendor/oppo/R9Plus/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
     vendor/oppo/R9Plus/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/oppo/R9Plus/proprietary/odm/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
